@@ -1,0 +1,60 @@
+/* Add Bootstrap CSS for styling */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* Custom styles */
+body {
+    background-image: url('/assets/img/bg.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background image fixed as you scroll */
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the body height to the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent white background color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #007BFF; /* Add a blue color to the heading */
+}
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+/* Style the Sign Up button */
+.btn-primary {
+    background-color: #007BFF; /* Blue background color for the button */
+    border-color: #007BFF; /* Blue border color for the button */
+    border-radius: 50px; /* Make the button rounded */
+    width: 100%; /* Make the button span the full width of its container */
+}
+
+/* Style the "I agree" checkbox */
+.custom-control-label::before {
+    background-color: #ffffff; /* Blue color for the checkbox */
+}
+
+/* Adjust the length of the textboxes */
+.form-control {
+    width: 100%; /* Make the textboxes span the full width of their container */
+}
